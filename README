@@ -1,0 +1,33 @@
+% This task was written to validate behavior(after CoSyNe 2013). 
+% The 2s delay is removed; otherwise, the task is the same as the isoluminant tasks
+
+% Version 6  -- implementing post-decision wager to get rid of the prediction phase
+
+% In addition, we show the previous prediction, outcome and estimate(version 4).
+
+
+
+% TO DO
+
+-- fix issue with mouse/keyboard detection
+
+
+% FILE DESCRIPTIONS
+
+% These are the main files for the auditory task
+'AuditoryAV.m'  -- template classes for audiovisual objects in the task
+'AuditoryLogic.m' -- template for control flow in the task
+'configureAuditoryTask.m' -- file which configures the logic and AV templates
+'AuditoryTask.m' -- files which launches the task
+
+'Data'  -- data storage folder
+'InstructionSlides' -- ppt instructions
+'NN12analysis' -- contains old pupil analysis files from Matt and Katie
+'README' -- this file
+'aslCRTcalibrate.m' -- creates the 9-point isoluminant wallpaper
+'generateSoundsScriptV1.m' -- file for generating the auditory stimuli
+'isoLuminantWallpaperV1.png' -- isoluminant wallpaper for the CRT
+'isoLuminantWallpaperV2.png' -- isoluminant wallpaper for the CRT
+'kameshTextureMaker.m' -- texture maker for isoluminant task
+'pupilAnalysis.m' -- preliminary pupil analysis file
+'testSandBox' -- folder to fool around with SnowDots etc.
